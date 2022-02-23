@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* increased line height, better user experience for vision impaired individuals */
     line-height: 1.5;
 }
 
@@ -38,7 +39,7 @@ body {
 .header nav ul li {
     display: inline-block;
 }
-
+/* styling for button wrappers */
 .btn{
     background: none;
     margin-left: 25px;
@@ -47,20 +48,18 @@ body {
     border-radius: 6px;
     transition: 0.4s;
 }
-
+/* hover and focus states for nav buttons so vision impaired individuals can discern what button they are mousing over or tabbing through for people with cognitive disabilities*/
 .btn:hover, .btn:focus{
     font-size: 20px;
     border: 5px solid #ffffff;
     transition: 0.4s;
 }
 
-
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* increased paragraph font size to the accessible size standard of 18px*/
 p {
     font-size: 18px;
 }
