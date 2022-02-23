@@ -48,7 +48,8 @@ body {
     border-radius: 6px;
     transition: 0.4s;
 }
-/* hover and focus states for nav buttons so vision impaired individuals can discern what button they are mousing over or tabbing through for people with cognitive disabilities*/
+/* hover and focus states for nav buttons so vision impaired individuals can discern what button they are mousing over,
+     or tabbing through for people with cognitive disabilities/unable to use a mouse*/
 .btn:hover, .btn:focus{
     font-size: 20px;
     border: 5px solid #ffffff;
@@ -209,6 +210,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
