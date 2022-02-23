@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    line-height: 1.5;
 }
 
 body {
@@ -18,13 +19,11 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,14 +31,30 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
-    margin-left: 25px;
 }
+
+.btn{
+    background: none;
+    margin-left: 25px;
+    padding: 4px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+
+.btn:hover, .btn:focus{
+    font-size: 20px;
+    border: 5px solid #ffffff;
+    transition: 0.4s;
+}
+
+
 
 a {
     color: #ffffff;
@@ -47,7 +62,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .hero {
